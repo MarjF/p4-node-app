@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.btnAddProduct {
+  border: none;
+  background-color: #0081ee;
+  padding: 0;
+  border-radius: 60px;
+  cursor: pointer;
+  height: 45px;
+  width: 180px;
+  display: flex;
+  margin-left: 850px;
+}
+.btnBack {
+  background-color: #ffffff;
+  border: 1px solid #0081ee;
+  color: #0081ee;
+  width: 180px;
+  height: 45px;
+  padding: 0;
+  border-radius: 60px;
+  display: flex;
+  margin-left: 710px;
+  /* padding-left: 10px; */
+  /* margin-right: -20px; */
+}
+.submitBtn {
+  float: right;
+  width: 180px;
+  border-radius: 60px;
+  cursor: pointer;
+  height: 45px;
+  padding: 0;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.labelAddProduct {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.labelAddProducts {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 15px;
+  color: white;
+}
+.iconAddProduct {
+  margin-left: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 10px;
+  color: #0081ee;
+}
+
+.productFormContainer {
+  width: 100%;
+  margin-bottom: 5rem;
+  margin-left: 250px;
+  border-radius: 30px;
+  color: #000;
+}
+
+.editFormContainer {
+  width: 80%;
+  margin-bottom: 5rem;
+  margin-left: 200px;
+  border-radius: 30px;
+  color: #000;
+}
+
+.addFormInsideContainer {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 30px;
+  border: none;
+  background-color: #ffffff;
+  display: grid;
+  height: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+form {
+  display: block;
+}
+
+.group {
+  padding: 5px;
+  grid-column: 1/2;
+  grid-row: 2/6;
+  height: 350px;
+  /* background-color: yellow; */
+  padding-top: 12px;
+  border: 1px solid #f2f2f2;
+  border-radius: 15px;
+}
+.addTitle {
+  font-size: 20px;
+}
+.productNameBox {
+  /* background-color: #0081ee; */
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.brandNameBox {
+  /* background-color: red; */
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.quantityBox {
+  /* background-color: violet; */
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.unitBox {
+  /* background-color: green; */
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+.descriptionBox {
+  /* background-color: orange; */
+  grid-column: 2/4;
+  grid-row: 4/5;
+  display: inline-flex;
+  padding-left: 20px;
+}
+.submitBox {
+  /* background-color: gray; */
+  grid-column: 2/4;
+  padding-right: 15px;
+}
+.textDescription {
+  width: 450px;
+  margin-left: 35px;
+  border-radius: 25px;
+  padding: 10px;
+  border: 1px solid #f2f2f2;
+}
+
+.titleAddContainer {
+  display: flex;
+  /* padding-left: 40px; */
+  border-bottom: 1px solid #f2f2f2;
+  padding-bottom: 20px;
+  grid-column: 1/4;
+  height: 50px;
+  /* padding-right:  */
+  width: 100%;
+  /* background-color: pink; */
+}
+.inputProduct {
+  width: 150px;
+  height: 12px;
+  margin-left: 10px;
+  border: 1px solid #f2f2f2;
+}
+.productUnit {
+  margin-left: 40px;
+}
+.brandName {
+  margin-left: 25px;
+}
+.imgPreview {
+  width: 60%;
+  height: 60%;
+  border-radius: 3px;
+  overflow: hidden;
+  transition: all 0.3s;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #f2f2f2;
+}
+
+.imgPreview img {
+  width: 100%;
+}
+
+.image-show {
+  display: block;
+}
+.imgPlaceholder {
+  margin-top: 10px;
+}
+
+.popUpContainer {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: -700px;
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  z-index: 1;
+}
+/* .closeEditProduct {
+  display: flex;
+  height: 40px;
+  padding: 0;
+  margin-left: 900px;
+  margin-top: -20px;
+} */

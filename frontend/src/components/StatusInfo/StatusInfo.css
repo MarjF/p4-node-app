@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.infoBox {
+  width: 400px;
+  height: 6rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  transform: translateY(0);
+  transition: all 0.3s;
+  border-radius: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+
+  &:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+  }
+}
+.infoIcon {
+  padding: 0 5rem;
+  color: #fff;
+}
